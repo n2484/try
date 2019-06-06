@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Home v-if="!isLogin"></Home>
-    <Editor v-if="isLogin" :user="userData"></Editor>
+    <Editor v-if="isLogin"></Editor>
   </div>
 </template>
 
