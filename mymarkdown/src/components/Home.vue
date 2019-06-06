@@ -17,7 +17,7 @@ export default {
     googleLogin: function() {
       firebase
         .auth()
-        .signInwithRedirect(new firebase.auth.GoogleAuthProvider());
+        .signInWithRedirect(new firebase.auth.GoogleAuthProvider());
     }
   }
 };
